@@ -1,0 +1,26 @@
+html {
+  background-color: azure;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  font-weight: bold;
+  background-color: black;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  filter: drop-shadow(5px 10px 4px blueviolet);
+}
