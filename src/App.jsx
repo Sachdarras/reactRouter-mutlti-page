@@ -5,9 +5,12 @@ import "./App.css";
 function App() {
   return (
     <>
-      <nav>
+      <nav className="nav">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/articles/1">Article 1</Link>
+        <Link to="/articles/2">Article 2</Link>
+        <Link to="/articles/3">Article 3</Link>
       </nav>
       <main>
         <Outlet />
